@@ -5,7 +5,7 @@ This is Spring Boot Full-Crud Project
 ---
 Prerequisites
 
-- Docker-Account
+- Docker-Desktop
 
 - Spring Boot 2.5.4
 
