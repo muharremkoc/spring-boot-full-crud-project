@@ -1,4 +1,4 @@
-package com.example.springbootfullcrudproject.service;
+package com.example.springbootfullcrudproject.service.lesson;
 
 import com.example.springbootfullcrudproject.dto.LessonDTO;
 import com.example.springbootfullcrudproject.model.Lesson;

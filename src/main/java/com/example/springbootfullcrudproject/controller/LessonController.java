@@ -2,14 +2,12 @@ package com.example.springbootfullcrudproject.controller;
 
 import com.example.springbootfullcrudproject.dto.LessonDTO;
 import com.example.springbootfullcrudproject.model.Lesson;
-import com.example.springbootfullcrudproject.model.Student;
-import com.example.springbootfullcrudproject.service.LessonService;
+import com.example.springbootfullcrudproject.service.lesson.LessonService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController

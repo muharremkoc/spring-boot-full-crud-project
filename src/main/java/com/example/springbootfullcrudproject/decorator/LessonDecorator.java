@@ -30,4 +30,5 @@ public class LessonDecorator implements LessonMapper {
 
         return lesson;
     }
+
 }

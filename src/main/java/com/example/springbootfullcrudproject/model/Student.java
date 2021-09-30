@@ -29,8 +29,6 @@ public class Student {
     String lastName;
 
 
-
-
     Date birthday;
 
     @Column(name = "age")
@@ -38,13 +36,9 @@ public class Student {
    int age;
 
 
-
-
     @ManyToOne
     @ToString.Exclude
     @JsonIgnore
     Lesson lesson;
-
-
 
 }

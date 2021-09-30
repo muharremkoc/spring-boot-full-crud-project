@@ -1,11 +1,10 @@
-package com.example.springbootfullcrudproject.service;
+package com.example.springbootfullcrudproject.service.lesson;
 
 import com.example.springbootfullcrudproject.decorator.LessonDecorator;
 import com.example.springbootfullcrudproject.dto.LessonDTO;
 import com.example.springbootfullcrudproject.model.Lesson;
 import com.example.springbootfullcrudproject.model.Student;
 import com.example.springbootfullcrudproject.repository.LessonRepository;
-import jdk.dynalink.linker.LinkerServices;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;

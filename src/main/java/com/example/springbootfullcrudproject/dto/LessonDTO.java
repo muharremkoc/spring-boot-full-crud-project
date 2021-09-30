@@ -3,14 +3,12 @@ package com.example.springbootfullcrudproject.dto;
 
 import com.example.springbootfullcrudproject.model.Student;
 import jdk.dynalink.linker.LinkerServices;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import java.util.List;
 
+@Builder
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
